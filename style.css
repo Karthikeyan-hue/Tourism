@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+.bg-image{
+    background-image: url("https://ik.imagekit.io/c3q3h7pex/tropical-beach-3840x2160-14811.jpg?updatedAt=1719242066699");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+ }
+
+
+ 
